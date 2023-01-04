@@ -116,8 +116,6 @@ end)
 
 
 
-local Section = Tab:NewSection("Select Wednesday skin")
-
 local Tab = Window:NewTab("Unlock Gamepass")
 local Section = Tab:NewSection("Unlock gamepass")
 
