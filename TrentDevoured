@@ -155,7 +155,6 @@ Section:NewButton("Infinite Yield", "Infinite Yield", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
-local Tab = Window:NewTab("Gui toggle")
 local Section = Tab:NewSection("Gui toggle")
 Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
     Library:ToggleUI()
