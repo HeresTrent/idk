@@ -108,7 +108,6 @@ end)
 
 
 
-
 Section:NewButton("Decoy Spam", "No cooldown", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
 end)
