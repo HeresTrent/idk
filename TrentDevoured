@@ -113,14 +113,6 @@ Section:NewButton("Decoy Spam", "No cooldown", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
 end)
 
-local Tab = Window:NewTab("Character skins")
-local Section = Tab:NewSection("Being worked on")
-
-
-
-Section:NewDropdown("Being worked on", "DropdownInf", {"838", "Halloween", "60s"}, function(value)
-
-end)
 
 
 
@@ -252,7 +244,7 @@ wait(1)
 game.StarterGui:SetCore("SendNotification", { 
     Title = "Trents Xploit Hub ❤";
     Text = "Marvellous Playground    Now Active, Enjoy! ❤";
-    Icon = "rbxthumb://type=Asset&id=12040122061w=150&h=150";
+    Icon = "rbxthumb://type=Asset&id=12040122061&w=150&h=150";
     Duration = "2";
     Button1 = "Close";
 })
