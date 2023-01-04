@@ -155,10 +155,6 @@ Section:NewButton("Infinite Yield", "Infinite Yield", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
-
-
-local Tab = Window:NewTab("Gui toggle")
-local Section = Tab:NewSection("Gui toggle")
 local Tab = Window:NewTab("Gui toggle")
 local Section = Tab:NewSection("Gui toggle")
 Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
@@ -244,16 +240,6 @@ local Section = Tab:NewSection("Ghostface (being worked on)")
 
 
 
-
-
-
---gui
-local Tab = Window:NewTab("Gui toggle")
-local Section = Tab:NewSection("Gui toggle")
-Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
-    Library:ToggleUI()
-end)
-wait(1)
 game.StarterGui:SetCore("SendNotification", { 
     Title = "Trents Xploit Hub ❤";
     Text = "Marvellous Playground    Now Active, Enjoy! ❤";
