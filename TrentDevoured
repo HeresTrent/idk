@@ -157,6 +157,19 @@ end)
 
 
 
+local Tab = Window:NewTab("Gui toggle")
+local Section = Tab:NewSection("Gui toggle")
+local Tab = Window:NewTab("Gui toggle")
+local Section = Tab:NewSection("Gui toggle")
+Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
+    Library:ToggleUI()
+end)
+
+
+
+
+
+
 
 local Tab = Window:NewTab("Keybinds")
 local Section = Tab:NewSection("Wanda")
